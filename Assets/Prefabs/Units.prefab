@@ -52,8 +52,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4442467727945812}
+  - component: {fileID: 114124353842922378}
+  - component: {fileID: 114921892543424808}
   m_Layer: 0
-  m_Name: Tau
+  m_Name: Fire Warrior Shas'ui
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -207,6 +209,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4080316758481940}
+  - component: {fileID: 114560167896311956}
+  - component: {fileID: 114323375708835054}
   m_Layer: 0
   m_Name: Space Marine
   m_TagString: Untagged
@@ -785,6 +789,70 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114124353842922378
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072612304295818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ed04d9e5983154fa08bf9bd86384f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponSkill: 2
+  BallisticSkill: 3
+  Strength: 3
+  Toughness: 3
+  Wounds: 2
+  Initiative: 2
+  Attacks: 2
+  Leadership: 8
+  ArmorSave: 4
+--- !u!114 &114323375708835054
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852024406075772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb0e1f56708b2b640ab4430375911f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Points: 16
+--- !u!114 &114560167896311956
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852024406075772}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48ed04d9e5983154fa08bf9bd86384f6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WeaponSkill: 4
+  BallisticSkill: 4
+  Strength: 4
+  Toughness: 4
+  Wounds: 1
+  Initiative: 4
+  Attacks: 1
+  Leadership: 8
+  ArmorSave: 3
+--- !u!114 &114921892543424808
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072612304295818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb0e1f56708b2b640ab4430375911f8d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Points: 19
 --- !u!136 &136100414888910128
 CapsuleCollider:
   m_ObjectHideFlags: 1
