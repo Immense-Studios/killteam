@@ -809,6 +809,8 @@ MonoBehaviour:
   Attacks: 2
   Leadership: 8
   ArmorSave: 4
+  weapons:
+  - {fileID: 114018177247155122, guid: cdc03a012281d2a4b80900de4379f426, type: 2}
 --- !u!114 &114323375708835054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -841,6 +843,8 @@ MonoBehaviour:
   Attacks: 1
   Leadership: 8
   ArmorSave: 3
+  weapons:
+  - {fileID: 114089682775088402, guid: cdc03a012281d2a4b80900de4379f426, type: 2}
 --- !u!114 &114921892543424808
 MonoBehaviour:
   m_ObjectHideFlags: 1

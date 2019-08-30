@@ -13,4 +13,6 @@ public class Unit : MonoBehaviour {
 	public int Attacks;
 	public int Leadership;
 	public int ArmorSave;
+
+	public List<Weapon> weapons;
 }
