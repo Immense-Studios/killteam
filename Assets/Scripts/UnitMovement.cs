@@ -6,6 +6,8 @@ public class UnitMovement : MonoBehaviour {
 
 	Unit unit;
 	public int MoveSpeed = 6;
+	private Dice d6 = new D6();
+	private Dice d3 = new D3();
 
 	[SerializeField] bool selected;
 
@@ -57,21 +59,21 @@ public class UnitMovement : MonoBehaviour {
 	}
 
 	void Advance(Vector3 position) {
-		int extraMove = Random.Range(0, 6) + 1;
+		int extraMove = d6.Roll();
 		if(Vector3.Distance(transform.position, position) < MoveSpeed + extraMove) {
 			transform.position = position;
 		}
 	}
 
 	void FallBack() {
-		int amount = Random.Range(0, 3) + 1;
+		int amount = d3.Roll();
 		transform.position -= transform.forward * amount;
 	}
 
 	void Ready() {}
 
 	void Charge(Unit target) {
-		int maxDistance = Random.Range(0, 3) + 1 + Random.Range(0, 3) + 1;
+		int maxDistance = d6.Total(2);
 		Vector3 desiredPosition = Vector3.MoveTowards(
 			transform.position,
 			target.transform.position,
