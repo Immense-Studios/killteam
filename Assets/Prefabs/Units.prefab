@@ -56,6 +56,7 @@ GameObject:
   - component: {fileID: 114921892543424808}
   - component: {fileID: 54006807471169744}
   - component: {fileID: 114728053732356072}
+  - component: {fileID: 114947412833378442}
   m_Layer: 10
   m_Name: Fire Warrior Shas'ui
   m_TagString: Untagged
@@ -976,7 +977,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1072612304295818}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 32f6c41621c7ebe46be7139205e0e467, type: 3}
   m_Name: 
@@ -995,6 +996,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Points: 19
+--- !u!114 &114947412833378442
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072612304295818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efe42845f105acf45bae4794ba8bce45, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  unit: {fileID: 0}
 --- !u!136 &136100414888910128
 CapsuleCollider:
   m_ObjectHideFlags: 1
