@@ -37,7 +37,7 @@ GameObject:
   - component: {fileID: 33022197666198530}
   - component: {fileID: 23531427077161134}
   - component: {fileID: 136270603951432648}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Right Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -54,7 +54,9 @@ GameObject:
   - component: {fileID: 4442467727945812}
   - component: {fileID: 114124353842922378}
   - component: {fileID: 114921892543424808}
-  m_Layer: 0
+  - component: {fileID: 54006807471169744}
+  - component: {fileID: 114728053732356072}
+  m_Layer: 10
   m_Name: Fire Warrior Shas'ui
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -72,7 +74,7 @@ GameObject:
   - component: {fileID: 33592308324234560}
   - component: {fileID: 23023121811861376}
   - component: {fileID: 136793703896335836}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -90,7 +92,7 @@ GameObject:
   - component: {fileID: 33217556908252360}
   - component: {fileID: 23892133239150946}
   - component: {fileID: 136198584843548568}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Left Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -106,7 +108,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4042290953125594}
   - component: {fileID: 95323973333767482}
-  m_Layer: 0
+  - component: {fileID: 114091425296928618}
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -124,7 +127,7 @@ GameObject:
   - component: {fileID: 33307078885305254}
   - component: {fileID: 23092310731182184}
   - component: {fileID: 136361231796650414}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Base
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -142,7 +145,7 @@ GameObject:
   - component: {fileID: 33872860235178956}
   - component: {fileID: 23824436380947106}
   - component: {fileID: 136121218551046840}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Right Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -160,7 +163,7 @@ GameObject:
   - component: {fileID: 33831245850437442}
   - component: {fileID: 23085572167717354}
   - component: {fileID: 136901625419724280}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -176,7 +179,8 @@ GameObject:
   m_Component:
   - component: {fileID: 4498641927082846}
   - component: {fileID: 95715397542899680}
-  m_Layer: 0
+  - component: {fileID: 114039550906376884}
+  m_Layer: 10
   m_Name: Model
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -194,7 +198,7 @@ GameObject:
   - component: {fileID: 33356954524461078}
   - component: {fileID: 23510305523197074}
   - component: {fileID: 136100414888910128}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -211,7 +215,8 @@ GameObject:
   - component: {fileID: 4080316758481940}
   - component: {fileID: 114560167896311956}
   - component: {fileID: 114323375708835054}
-  m_Layer: 0
+  - component: {fileID: 54777865391110504}
+  m_Layer: 10
   m_Name: Space Marine
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -229,7 +234,7 @@ GameObject:
   - component: {fileID: 33350929005552550}
   - component: {fileID: 23388668207123828}
   - component: {fileID: 136853872262226888}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Left Arm
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -257,7 +262,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1852024406075772}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -353,7 +358,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1072612304295818}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -753,6 +758,36 @@ MeshFilter:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1234011010814932}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!54 &54006807471169744
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072612304295818}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!54 &54777865391110504
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1852024406075772}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!95 &95323973333767482
 Animator:
   serializedVersion: 3
@@ -789,6 +824,30 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &114039550906376884
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1358458036341076}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2629b490b96dc45b3e35412157fae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 95715397542899680}
+--- !u!114 &114091425296928618
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1171113113812882}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2629b490b96dc45b3e35412157fae4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  anim: {fileID: 95323973333767482}
 --- !u!114 &114124353842922378
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -809,8 +868,41 @@ MonoBehaviour:
   Attacks: 2
   Leadership: 8
   ArmorSave: 4
+  baseRadius: 0.5
   weapons:
   - {fileID: 114018177247155122, guid: cdc03a012281d2a4b80900de4379f426, type: 2}
+  OnSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114039550906376884}
+        m_MethodName: Select
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: SelectionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnDeselect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114039550906376884}
+        m_MethodName: Select
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: SelectionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
 --- !u!114 &114323375708835054
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -843,8 +935,54 @@ MonoBehaviour:
   Attacks: 1
   Leadership: 8
   ArmorSave: 3
+  baseRadius: 0.5
   weapons:
   - {fileID: 114089682775088402, guid: cdc03a012281d2a4b80900de4379f426, type: 2}
+  OnSelect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114091425296928618}
+        m_MethodName: Select
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+    m_TypeName: SelectionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+  OnDeselect:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 114091425296928618}
+        m_MethodName: Select
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: SelectionEvent, Assembly-CSharp, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &114728053732356072
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1072612304295818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 32f6c41621c7ebe46be7139205e0e467, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MoveSpeed: 6
+  selected: 0
 --- !u!114 &114921892543424808
 MonoBehaviour:
   m_ObjectHideFlags: 1
